@@ -145,10 +145,7 @@ MIT
 3. Запустите:
 
 ```bash
-python scripts/verify_hmac_v1.py \
-  --seed e3c0... \
-  --hash f12a... \
-  --json game.json
+python verify_hmac_v1.py --seed e3c0... --hash f12a... --json game.json
 ```
 
 Если всё корректно, скрипт выведет `VALID ✅` и завершится с кодом `0`.  
