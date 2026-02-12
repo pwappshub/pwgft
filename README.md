@@ -19,10 +19,7 @@ It answers one key question:
 3. Run:
 
 ```bash
-python scripts/verify_hmac_v1.py \
-  --seed e3c0... \
-  --hash f12a... \
-  --json game.json
+python verify_hmac_v1.py --seed e3c0... --hash f12a... --json game.json
 ```
 
 If verification succeeds, the script prints `VALID ✅` and exits with code `0`.  
